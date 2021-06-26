@@ -1,0 +1,181 @@
+[
+  {
+    "line": 11,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-26T08:55:53.714Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2636000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setBaseDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate signup page",
+        "description": "",
+        "id": "flight-search-function;validate-signup-page",
+        "after": [
+          {
+            "result": {
+              "duration": 755000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4513000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am at app URL",
+            "match": {
+              "location": "stepDefinitions.signupSteps.i_am_at_app_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I validate that the dropdown has \"English\" and \"Dutch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"English\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Dutch\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.signupSteps.i_validate_that_the_dropdown_has_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I fill in name as \"Deeshani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deeshani\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.signupSteps.i_fill_in_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I fill oganization as \"Deeshani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deeshani\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.signupSteps.i_fill_oganization_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I input my email address",
+            "match": {
+              "location": "stepDefinitions.signupSteps.i_input_my_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on I agree to the Terms and Conditions",
+            "match": {
+              "location": "stepDefinitions.signupSteps.i_click_on_i_agree_to_the_terms_and_conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Click on SignUp",
+            "match": {
+              "location": "stepDefinitions.signupSteps.i_click_on_signup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11148000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I have signed up successfully",
+            "match": {
+              "location": "stepDefinitions.signupSteps.i_have_signed_up_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@flightSearch"
+          },
+          {
+            "name": "@signup"
+          }
+        ]
+      }
+    ],
+    "name": "Flight Search function",
+    "description": "",
+    "id": "flight-search-function",
+    "keyword": "Feature",
+    "uri": "file:resources/features/flighSearch.feature",
+    "tags": [
+      {
+        "name": "@flightSearch",
+        "type": "Tag",
+        "location": {
+          "line": 10,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
