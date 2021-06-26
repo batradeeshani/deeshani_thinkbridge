@@ -8,6 +8,6 @@ OR
 4. Go to myApp\src\test\java\testRunner and run TestRunner.java as a JUnit Test
 
 Time Spent- 
-1. Answer 1 - 1.5 hours
+1. Answer 1 - 1 hour
 2. Answer 2 - 2 hours (I had a self built empty BDD framework, have incorporated Pages, Feature File and Step Files. Also created a Utility ValidateEmail.java to validate email received.
-3. Answer 3- 1.5 hours
+3. Answer 3- 90 min
